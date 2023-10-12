@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace KolcsonzoOOP
 {
-	internal class Program 
+	internal interface IKolcsonozheto
 	{
-		static void Main(string[] args)
-		{
-			
-		}
+		string MegjelenitendoNev();
+		int MeddigKolcsonozheto();
 	}
 }
