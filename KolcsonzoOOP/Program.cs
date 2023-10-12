@@ -27,7 +27,7 @@ namespace KolcsonzoOOP
 
 			foreach (var item in kolcsonozhetok)
 			{
-                Console.WriteLine(item);
+                Console.WriteLine($"{item.MegjelenitendoNev()}, {item.MeddigKolcsonozheto()} napig kölcsönözhető.");
             }
             #endregion
 
