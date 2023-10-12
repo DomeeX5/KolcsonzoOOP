@@ -19,7 +19,7 @@ namespace KolcsonzoOOP
 			this.isbn = isbn;
 		}
 
-		public override string MegjelenitendoNev()
+		public string MegjelenitendoNev()
 		{
 			return $"{this.szerzo} - {this.cim}";
 		}
@@ -28,5 +28,7 @@ namespace KolcsonzoOOP
 		{
 			return 14;
 		}
+
+		
 	}
 }

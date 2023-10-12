@@ -28,5 +28,6 @@ namespace KolcsonzoOOP
 		{
 			return 0;
 		}
+
 	}
 }
